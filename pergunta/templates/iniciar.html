@@ -1,0 +1,49 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listar_simulados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'base.css'%}" rel='stylesheet'></head>
+<body>
+  
+    <header>
+
+        <nav class="d-flex  ">
+            <div class="logo d-flex  align-items-center p-2" >
+                <img src="img/logo.png" alt="logo">
+                <p class="">Estudos</p>
+            </div>
+
+            <ul class="d-flex">
+                <li class=""><a href="criar_pergunta.html">Perguntas</a></li>
+                <li class=""><a href="criar_simulado.html">Criar simulado</a></li>
+                <li class=""><a href="listar_simulados.html">Listar</a></li>
+                <li class=""><a href="iniciar.html">Iniciar</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="maininiciar">
+        <h1>Desafio iniciado</h1>
+    </main>
+
+
+    <div class="fc">
+        <div class="mat">Matemática</div>
+       <div class="pgt">Quem foi o criador do python?</div>
+       <input type="text" class="respostasua" name="respostasua" id="respostasua">
+       <div class="resposta">deus sabe</div>
+        <div class="certo_errado">
+            <div class="certo">
+                <img src="img/Certo.png" alt="certo">
+            </div>
+            <div class="errado">
+                <img src="img/Errado.png" alt="errado">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/RubikOne-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.body_criar_pergunta{
+    background-color: #1e1a1a;
+}
+.body-com-fundo{
+    background-color: #000716;
+}
+
+nav{
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+    background-color: #0B1526;
+    
+}
+
+nav > ul > li{
+   
+    padding-left: 30%;
+    text-align: center;
+} 
+nav > ul > li > a{
+   display: inline-block;
+    width: 8vw;
+   text-decoration: none;
+   color: white;
+   font-weight: 800;
+   
+}
+nav > ul > li > a:hover{
+    text-decoration: underline;
+    
+}
+.d-flex > ul{
+    width: 20vw;
+    list-style: none;
+    
+}
+.mainpergunta{
+    background-image: url('/static/img/fundo.png') !important;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.formpergunta{
+    background-color: #d9d9d925;
+    width: 35vw;
+    height: 50%;
+    margin: auto;
+    padding: 16px;
+    padding-top: 4;
+    padding-bottom: 4;
+    color: #ffffffe1;
+
+}
+.formpergunta .form-select{
+    width: 15vw;
+}
+.enviar{
+    padding: 5px;
+    background-color: #58FCD5;
+    color: #000;
+    width: 7vw;
+    font-weight: 600;
+   
+
+}
+.criardesafio{
+    text-align: center;
+}
+.formcriar{    
+    width: 70vw;
+    
+    margin-bottom: 10px;
+    
+
+}
+.botao_criar{
+
+    margin-top: 40px;
+    font-size: 20px;
+    width: 10vw;
+    height: 7vh;
+
+}
+.titulo{
+    font-size: 10vh;
+}
+.sub-titulo{
+    font-size: 5vh;
+}
+
+.afazer{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+.afazer h3{
+    font-size: 20px;
+    
+}
+.afazer h4{
+    font-size: 15px;
+}
+.formlistar{
+    width: 50vw;
+}
+.listar_table{
+    margin: 30px auto;
+    width: 60vw;
+    background-color: #27364f74;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.listar_table table{
+    margin: auto;
+    width: 50vw;
+}
+
+.linha{
+    background-color: #000716;
+    margin: 10px 0;  
+}
+.maininiciar{
+    margin: 10px 50px;
+}
+
+.fc{
+    width: 50vw;
+    margin:auto;
+    background-color: #fcfcfc1a;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fc .mat{
+    margin-bottom: 3vh;
+    width: 10vw;
+    background-color: #3b568767;
+  
+}
+.resposta{
+    display: none;
+}
+.pgt{
+    text-align: center;
+}
+.respostasua{
+    display: block;
+    margin: auto;
+    width: 30vw;
+    margin-top: 10px;
+}
+.certo_errado{
+    display: flex;
+    justify-content: right;
+}
+.certo_errado img{
+    height: 20px;
+    margin-right: 10px;
+
+}
+.rubik-one{
+    font-family:'Rubik', Courier New, Courier, monospace;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
